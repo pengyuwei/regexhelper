@@ -11,3 +11,10 @@
 *.lai
 *.la
 *.a
+
+*.ncb
+Debug
+Release
+_UpgradeReport_Files
+UpgradeLog.XML
+.svn

@@ -1,0 +1,98 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: RegexHelper - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/RegexHelper.res" /d "_DEBUG" /d "_AFXDLL" "D:\VC\RegexHelper\RegexHelper.rc"" 
+Creating temporary file "C:\DOCUME~1\pyw\LOCALS~1\Temp\RSP1E6.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "D:\TBU-CVS\cs\public\Greta\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/RegexHelper.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC\RegexHelper\RegexHelper.cpp"
+"D:\VC\RegexHelper\RegexHelperDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\pyw\LOCALS~1\Temp\RSP1E6.tmp" 
+Creating temporary file "C:\DOCUME~1\pyw\LOCALS~1\Temp\RSP1E7.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /I "D:\TBU-CVS\cs\public\Greta\\" /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/RegexHelper.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\VC\RegexHelper\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\pyw\LOCALS~1\Temp\RSP1E7.tmp" 
+Creating temporary file "C:\DOCUME~1\pyw\LOCALS~1\Temp\RSP1E8.tmp" with contents
+[
+Gretad.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/RegexHelper.pdb" /debug /machine:I386 /out:"Debug/RegexHelper.exe" /pdbtype:sept /libpath:"D:\TBU-CVS\cs\lib" 
+.\Debug\RegexHelper.obj
+.\Debug\RegexHelperDlg.obj
+.\Debug\StdAfx.obj
+.\Debug\RegexHelper.res
+]
+Creating command line "link.exe @C:\DOCUME~1\pyw\LOCALS~1\Temp\RSP1E8.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+RegexHelper.cpp
+RegexHelperDlg.cpp
+Generating Code...
+Linking...
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol __RTC_Shutdown
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol __RTC_Shutdown
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol __RTC_InitBase
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol __RTC_InitBase
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol __RTC_CheckEsp
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(char const *)" (__imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(char const *)" (__imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@PBD@Z)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(unsigned int,char)" (__imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(unsigned int,char)" (__imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@ID@Z)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> >::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> >(unsigned short const *)" (__imp_??0?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@PBG@Z)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> >::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> >(unsigned short const *)" (__imp_??0?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@PBG@Z)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> >::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> >(unsigned int,unsigned short)" (__imp_??0?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@IG@Z)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> >::basic_string<unsigned short,struct std::char_traits<unsigned short>,class std::allocator<unsigned short> >(unsigned int,unsigned short)" (__imp_??0?$basic_string@GU?$char_traits@G@std@@V?$allocator@G@2@@std@@QAE@IG@Z)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol @_RTC_CheckStackVars@8
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Ipfx(bool)" (__imp_?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall std::basic_istream<char,struct std::char_traits<char> >::_Ipfx(bool)" (__imp_?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Unlock(void)" (__imp_?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEXXZ)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Unlock(void)" (__imp_?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEXXZ)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Lock(void)" (__imp_?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEXXZ)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_streambuf<char,struct std::char_traits<char> >::_Lock(void)" (__imp_?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEXXZ)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::locale::facet::_Register(void)" (__imp_?_Register@facet@locale@std@@QAEXXZ)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::locale::facet::_Register(void)" (__imp_?_Register@facet@locale@std@@QAEXXZ)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall bad_cast::bad_cast(char const *)" (__imp_??0bad_cast@@QAE@PBD@Z)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall bad_cast::bad_cast(char const *)" (__imp_??0bad_cast@@QAE@PBD@Z)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static unsigned int __cdecl std::ctype<char>::_Getcat(class std::locale::facet const * *)" (__imp_?_Getcat@?$ctype@D@std@@SAIPAPBVfacet@locale@2@@Z)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static unsigned int __cdecl std::ctype<char>::_Getcat(class std::locale::facet const * *)" (__imp_?_Getcat@?$ctype@D@std@@SAIPAPBVfacet@locale@2@@Z)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::locale::facet const * __thiscall std::locale::_Getfacet(unsigned int)const " (__imp_?_Getfacet@locale@std@@QBEPBVfacet@12@I@Z)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::locale::facet const * __thiscall std::locale::_Getfacet(unsigned int)const " (__imp_?_Getfacet@locale@std@@QBEPBVfacet@12@I@Z)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Lockit::_Lockit(int)" (__imp_??0_Lockit@std@@QAE@H@Z)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::_Lockit::_Lockit(int)" (__imp_??0_Lockit@std@@QAE@H@Z)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_ostream<char,struct std::char_traits<char> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::_Ipfx(bool)" (__imp_?_Ipfx@?$basic_istream@GU?$char_traits@G@std@@@std@@QAE_N_N@Z)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: bool __thiscall std::basic_istream<unsigned short,struct std::char_traits<unsigned short> >::_Ipfx(bool)" (__imp_?_Ipfx@?$basic_istream@GU?$char_traits@G@std@@@std@@QAE_N_N@Z)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Unlock(void)" (__imp_?_Unlock@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEXXZ)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Unlock(void)" (__imp_?_Unlock@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEXXZ)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Lock(void)" (__imp_?_Lock@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEXXZ)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_streambuf<unsigned short,struct std::char_traits<unsigned short> >::_Lock(void)" (__imp_?_Lock@?$basic_streambuf@GU?$char_traits@G@std@@@std@@QAEXXZ)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static unsigned int __cdecl std::ctype<unsigned short>::_Getcat(class std::locale::facet const * *)" (__imp_?_Getcat@?$ctype@G@std@@SAIPAPBVfacet@locale@2@@Z)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: static unsigned int __cdecl std::ctype<unsigned short>::_Getcat(class std::locale::facet const * *)" (__imp_?_Getcat@?$ctype@G@std@@SAIPAPBVfacet@locale@2@@Z)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEXXZ)
+Gretad.lib(syntax2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: void __thiscall std::basic_ostream<unsigned short,struct std::char_traits<unsigned short> >::_Osfx(void)" (__imp_?_Osfx@?$basic_ostream@GU?$char_traits@G@std@@@std@@QAEXXZ)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::iterator __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::begin(void)" (__imp_?begin@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE?AViterator@12@XZ)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::iterator __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::end(void)" (__imp_?end@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE?AViterator@12@XZ)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::iterator __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::erase(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::iterator,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::iterator)" (__imp_?erase@?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE?AViterator@12@V312@0@Z)
+Gretad.lib(regexpr2.obj) : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __thiscall std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >(void)" (__imp_??0?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@QAE@XZ)
+Debug/RegexHelper.exe : fatal error LNK1120: 26 unresolved externals
+Error executing link.exe.
+
+
+
+<h3>Results</h3>
+RegexHelper.exe - 49 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
